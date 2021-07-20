@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+    .border {
+        width: 93%;
+    }
+}
+@media (max-width: 560px) {
+    .border {
+        width: 90%;
+    }
+}
+@media (max-width: 400px) {
+    .border {
+        width: 87%;
+        &::after {
+            width: 93%;
+        }
+    }
+}

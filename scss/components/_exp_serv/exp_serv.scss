@@ -1,0 +1,23 @@
+.exp_serv {
+    background: $gradient-supersoft;
+    border-radius: 0 0 30px 30px;
+    padding-bottom: 20px;
+    
+}
+
+.border {
+    background-color: #CACADB;
+    width: 95%;
+    height: 10px;
+    margin: 0px auto 50px;
+    border-radius: 0 0 30px 30px;
+    &::after {
+        content: '';
+        display: block;
+        background-color: #E7E7F2;
+        width: 98%;
+        height: 10px;
+        margin: 10px auto;
+        border-radius: 0 0 30px 30px;
+    }
+}
