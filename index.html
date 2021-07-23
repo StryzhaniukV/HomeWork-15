@@ -57,7 +57,7 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">о нас</a>
@@ -98,7 +98,7 @@
           <div class="container">
             <dib class="row">
               <div class="col-md-5 exp__col-left">
-                <div class="exp__switcher">
+                <div class="exp__switcher exp__switcher d-flex flex-column align-items-md-end ">
                   <label>
                     <input name="exp" type="radio" checked>
                     <span>Послідовні</span>
@@ -149,7 +149,7 @@
           <div class="container">
             <span class="services__nav">послуги</span>
             <h2><span class="serv__heading">Що ми вміємо робити краще за інших?</span></h2>
-            <div class="row row-cols-md-3">
+            <div class="row row-cols-md-3 justify-content-between align-items-center">
               <div class="serv__item col">
                 <div class="item-icon">
                   <img src="images/icons/Icon-IT.svg" alt="IT">
@@ -242,20 +242,144 @@
           </div>
         </div>
       </div>
-      <div class="border"></div>
       <div class="team">
         <div class="container">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="images/image.jpg" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Заголовок карточки</h5>
-                  <p class="card-text">Это более широкая карта с вспомогательным текстом ниже в качестве естественного перехода к дополнительному контенту. Этот контент немного длиннее.</p>
-                  <p class="card-text"><small class="text-muted">Последнее обновление 3 мин. назад</small></p>
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators Carousel-panel">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active myCarousel" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="myCarousel" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="myCarousel" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card mb-3 card_box">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/image.jpg" class="img-fluid rounded-start img-big" alt="photo">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <span class="team__nav">команда</span>
+                        <h5 class="card-title card_heading">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</h5>
+                        <div class="card-mobile">
+                          <div class="card_text-mobile">
+                            <p class="card-text">Олександр Олександровський</p>
+                            <p class="card-text"><small>Керуючий партнер</small></p>
+                          </div>
+                          <img src="images/image.svg" class="img-mobile" alt="miniPhoto">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card mb-3 card_box">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/image.jpg" class="img-fluid rounded-start img-big" alt="photo">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <span class="team__nav">команда</span>
+                        <h5 class="card-title card_heading">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</h5>
+                        <div class="card-mobile">
+                          <div class="card_text-mobile">
+                            <p class="card-text">Олександр Олександровський</p>
+                            <p class="card-text"><small>Керуючий партнер</small></p>
+                          </div>
+                          <img src="images/image.svg" class="img-mobile" alt="miniPhoto">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card mb-3 card_box">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/image.jpg" class="img-fluid rounded-start img-big" alt="photo">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <span class="team__nav">команда</span>
+                        <h5 class="card-title card_heading">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</h5>
+                        <div class="card-mobile">
+                          <div class="card_text-mobile">
+                            <p class="card-text">Олександр Олександровський</p>
+                            <p class="card-text"><small>Керуючий партнер</small></p>
+                          </div>
+                          <img src="images/image.svg" class="img-mobile" alt="miniPhoto">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cases">
+        <div class="container">
+          <div class="row">
+            <div class="col-xxl-4 col-xl-6 col-md-12 g-0 cases__col-bg cases__first-col">
+              <div class="col g-0  d-flex align-items-center part-one">
+                <div class="cases__item">
+                  <p class="cases__text">
+                    Успішні кейси
+                  </p>
+                </div>
+              </div>
+              <div class="col g-0  d-flex align-items-end part-two">
+                <div class="cases__item">
+                  <p class="cases__text">
+                    Супровід проекту з купівлі-продажу сільськогосподарської продукції
+                  </p>
+                  <p class="cases__second-text">Hillel IT School</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-xxl-4 col-xl-6 col-md-12 g-0 cases__col-bg d-flex align-items-end">
+              <div class="cases__item">
+                <p class="cases__text">
+                  Підготовка комплексного юридичного висновку для європейського банку
+                </p>
+                <p class="cases__second-text">WannaBiz</p>
+              </div>
+            </div>
+            <div class="col-xxl-4 col-xl-6 col-md-12 g-0 cases__col-bg d-flex align-items-end">
+              <div class="cases__item">
+                <p class="cases__text">
+                  Супровід проекту з купівлі-продажу сільськогосподарської продукції
+                </p>
+                <p class="cases__second-text">tapgerine</p>
+              </div>
+            </div>
+            <div class="col-xxl-3 col-xl-6 col-md-12 g-0 cases__col-bg d-flex align-items-end">
+              <div class="cases__item">
+                <p class="cases__text">
+                  Представництво інтересів великого зернотрейдера в податковому спорі
+                </p>
+                <p class="cases__second-text">3D LOOK</p>
+              </div>
+            </div>
+            <div class="col-xxl-4 col-xl-6 col-md-12 g-0 cases__col-bg d-flex align-items-end">
+              <div class="cases__item">
+                <p class="cases__text">
+                  Оскарження податкових повідомлень-рішень ДФС
+                </p>
+                <p class="cases__second-text">adtelligent</p>
+              </div>
+            </div>
+            <div class="col-xxl-5 col-xl-6 col-md-12 g-0 cases__col-bg d-flex align-items-end">
+              <div class="cases__item">
+                <p class="cases__text">
+                  Супровід проекту з кредитування агротрейдерів мальтійським банком
+                </p>
+                <p class="cases__second-text">Clikky</p>
               </div>
             </div>
           </div>
